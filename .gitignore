@@ -223,7 +223,20 @@ research-vault/pdfs/
 # Obsidian local settings
 .obsidian/
 
-# Local PDFs
+# Local PDFs and Archives
 *.pdf
+*.apk
+*.rar
 
+# Heavy reverse-engineering and decompilation artifacts
+**/_extract/
+**/blutter_out/
+**/libapp.unflutter/
+scripts/tools/blutter/
+scripts/tools/unflutter/
+case-studies/**/ChableApp/
+case-studies/**/GMSFolder/
+
+# Node dependencies
+node_modules/
 
